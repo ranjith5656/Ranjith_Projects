@@ -1,0 +1,24 @@
+IPC(Inter-Process Communication)
+=================================
+-->IPC (Inter-Process Communication) report in Spring Boot is a report that provides information on the communication between different processes in a Spring Boot application. 
+-->This report can be useful in diagnosing performance issues or optimizing the application's architecture. 
+->The IPC report provides information on the number of messages sent between processes, 
+-->the time taken for each message, and any errors that occurred during the communication. 
+-->This information can help developers identify bottlenecks in the application's communication and make improvements to optimize performance.
+
+
+The IPC report typically includes the following information:
+-----------------------------------------------------------
+-->Message types: The report will list all the different types of messages that are sent between processes and the number of times each type of message is sent.
+
+-->Message size: The report will show the size of each message sent between processes, including the payload and any overhead associated with the message.
+
+-->Time taken for each message: The report will show the time taken for each message to be sent and received by the receiving process, including any overhead associated with the communication.
+
+-->Errors: The report will show any errors that occurred during the communication, including the type of error, the process that generated the error, and any stack trace information.
+
+-->Throughput: The report will show the overall throughput of the communication, including the number of messages sent and received, the total time taken, and the average time taken per message.
+
+-->The IPC report can be generated using various tools, such as JVisualVM or JMC (Java Mission Control), that are part of the Java Development Kit (JDK). The report can be viewed as a text file or a graphical representation, making it easy to understand and interpret.
+
+Overall, the IPC report can be an extremely valuable tool for developers working with Spring Boot applications, as it provides insights into the communication between processes, which can help to identify performance bottlenecks and improve the overall performance and stability of the application.
