@@ -1,6 +1,0 @@
-IPC(Inter-Process Communication)
-=================================
--->IPC (Inter-Process Communication) report in Spring Boot is a report that provides information on the communication between different processes in a Spring Boot application. 
--->This report can be useful in diagnosing performance issues or optimizing the application's architecture. 
-->The IPC report provides information on the number of messages sent between processes, 
--->the time taken for each message, and any errors that occurred during the communication. This information can help developers identify bottlenecks in the application's communication and make improvements to optimize performance.
